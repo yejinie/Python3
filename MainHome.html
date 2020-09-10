@@ -5,28 +5,43 @@
   <meta charset="utf-8">
   <style>
     body {
-     font-family:"Georgia"; line-height:1.5; text-decoration: none;
+     font-family:"Georgia"; line-height:1.5;
     }
     a {
+      color:black;
       text-decoration:none;
     }
-    ul {
-      font-size:25px; color:purple; text-decoration: none;
-      border-right:2px solid purple; width:140px; padding:30px; margin:0px;
-    }
     h1 {
-      font-size:35px; text-align:center; text-decoration: none;
-      border-bottom:2px solid black; padding:20px; margin:0px;
+      font-size:35px; text-align:center;
+      border-bottom:1px solid purple; padding:20px; margin:0px;
     }
+    ul {
+      font-size:20px; color:purple;
+      border-right:1px solid purple; 
+      width:140px; padding:40px;padding-right:20px; margin:0px;
+    }
+    #grid {
+      display:grid;
+      grid-template-columns:150px 1fr;
+    }
+    #grid #content {
+      padding-left:100px;
   </style>
 </head>
 <body>
 <h1><a href="MainHome.html">Yejin Piano</a></h1>
-<ul>
-  Score Storage
-  <li><a href="TOC_freeScores.html">Free scores</li>
-  <li><a href="TOC_CCMScores">CCM</a></li>
-  <li><a href="TOC_manuscript">Manuscript</a></li>
-</ul>
-<img src="Day.jpg" width="500">
+<div id="grid">
+  <ul>
+    <p> Score<br/> Storage</p>
+    <li><a href="TOC_freeScores.html">Free scores</li>
+    <li><a href="TOC_CCMScores">CCM</a></li>
+    <li><a href="TOC_manuscript">Manuscript</a></li>
+  </ul>
+  <div id="content">
+    <p>image
+    </p>
+    <img src="Day.jpg" width="500">
+  </div>
+</div>
 </body>
+</html>
