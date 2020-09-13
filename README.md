@@ -1,3 +1,4 @@
 # music-sheet
 
-* piano score website
+* Main Home
+* score store
