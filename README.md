@@ -1,6 +1,9 @@
 # music-sheet
 
-* Main Home
-* score store
+> * Main Home
+
+> grid
+
+> night/day
 
 >studying html CSS javascript
