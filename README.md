@@ -1,9 +1,11 @@
 # music-sheet
 
-> * Main Home
+> Main Home
 
-> grid
+* menu
 
-> night/day
+* grid
+
+* night/day
 
 >studying html CSS javascript
